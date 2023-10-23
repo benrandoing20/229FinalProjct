@@ -1,0 +1,19 @@
+name: 229Final
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - numpy
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - matplotlib
+  - python=3.9
+  - scipy
+  - pillow
+  - jupyter
+  - ipykernel
+  - scikit-learn
+  - pandas
+

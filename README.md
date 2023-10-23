@@ -19,6 +19,26 @@ categories of AD severity. The data has four classes:
 
 ## Project Setup
 
+1. Download the Dataset above and unzip the directory.
+
+2. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+  - Conda is a package manager that sandboxes your project’s dependencies in a virtual environment
+  - Miniconda contains Conda and its dependencies with no extra packages by default (as opposed to Anaconda, which installs some extra packages)
+2. Extract the zip file and run `conda env create -f environment.yml` from inside the extracted directory.
+  - This creates a Conda environment called `229Final`
+3. Run `source activate 229Final`
+  - This activates the `229Final` environment
+  - Do this each time you want to write/test your code
+4. (Optional) If you use PyCharm:
+  - Open the `src` directory in PyCharm
+  - Go to `PyCharm` > `Preferences` > `Project` > `Project interpreter`
+  - Click the gear in the top-right corner, then `Add`
+  - Select `Conda environment` > `Existing environment` > Button on the right with `…`
+  - Select `/Users/YOUR_USERNAME/miniconda3/envs/Final229/bin/python`
+  - Select `OK` then `Apply`
+5. If modifications are made to the `environment.yml` file, run `conda env update --file environment.yml`
+to update the conda environment.
+
 
 ## MIT License
 Copyright (c) [2023] [Benjamin Alexander Randoing & Elsa Bismuth & 
