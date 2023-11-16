@@ -6,9 +6,9 @@ dependencies:
   - numpy
   - pip
   - pip:
-      - torch
-      - torchvision
-      - matplotlib
+  - pytorch
+  - torchvision
+  - matplotlib
   - python=3.9
   - scipy
   - pillow
