@@ -39,6 +39,11 @@ categories of AD severity. The data has four classes:
 5. If modifications are made to the `environment.yml` file, run `conda env update --file environment.yml`
 to update the conda environment.
 
+## Files organization
+
+The 'Augmentation' folder contains all the code, plots, and loss csv files for the simple augmentation task.
+The 'XGB Classification' contains the features, training, testing, and the model for the multi-class classification using XGBoost.
+The data was too heavy to be included here. The datasets are available on Kaggle and the code is given to obtain the augmented datasets and resized images.
 
 ## MIT License
 Copyright (c) [2023] [Benjamin Alexander Randoing & Elsa Bismuth & 
