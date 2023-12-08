@@ -1,0 +1,359 @@
+Start.
+Preparing the dataset...
+'resized_images' already contains images. Skipping resizing.
+Size of original train dataset: 3840
+Size of original validation dataset: 1280
+Size of original test dataset: 1280
+
+=========================
+
+Testing with A=0, B=0, C=0, D=0
+Using existing augmented data in augmented_images_A0_B0_C0_D0
+Total number of images (original + augmented): 6400
+Loading augmented images...
+Size of combined train dataset (after augmentation): 3840
+Creating data loaders...
+Loading pre-trained ResNet18 model...
+Starting training with A=0, B=0, C=0, D=0...
+Epoch 1/20 - Train Batch 50/120
+Epoch 1/20 - Train Batch 100/120
+Epoch 1/20 - Val Batch 40/40
+Epoch 1/20, Train Loss: 0.39117880867173277, Val Loss: 0.1960581185296178
+Epoch 2/20 - Train Batch 50/120
+Epoch 2/20 - Train Batch 100/120
+Epoch 2/20 - Val Batch 40/40
+Epoch 2/20, Train Loss: 0.1959196412935853, Val Loss: 0.18173847254365683
+Epoch 3/20 - Train Batch 50/120
+Epoch 3/20 - Train Batch 100/120
+Epoch 3/20 - Val Batch 40/40
+Epoch 3/20, Train Loss: 0.17857430488996517, Val Loss: 0.19932163311168552
+Epoch 4/20 - Train Batch 50/120
+Epoch 4/20 - Train Batch 100/120
+Epoch 4/20 - Val Batch 40/40
+Epoch 4/20, Train Loss: 0.16780667593702675, Val Loss: 0.20048423074185848
+Epoch 5/20 - Train Batch 50/120
+Epoch 5/20 - Train Batch 100/120
+Epoch 5/20 - Val Batch 40/40
+Epoch 5/20, Train Loss: 0.16692284264912208, Val Loss: 0.27868778817355633
+Epoch 6/20 - Train Batch 50/120
+Epoch 6/20 - Train Batch 100/120
+Epoch 6/20 - Val Batch 40/40
+Epoch 6/20, Train Loss: 0.1859699737901489, Val Loss: 0.3635995103046298
+Epoch 7/20 - Train Batch 50/120
+Epoch 7/20 - Train Batch 100/120
+Epoch 7/20 - Val Batch 40/40
+Epoch 7/20, Train Loss: 0.21261431683475773, Val Loss: 0.28251645658165214
+Epoch 8/20 - Train Batch 50/120
+Epoch 8/20 - Train Batch 100/120
+Epoch 8/20 - Val Batch 40/40
+Epoch 8/20, Train Loss: 0.18473316671637197, Val Loss: 0.26204738123342397
+Epoch 9/20 - Train Batch 50/120
+Epoch 9/20 - Train Batch 100/120
+Epoch 9/20 - Val Batch 40/40
+Epoch 9/20, Train Loss: 0.16038984912447632, Val Loss: 0.24213573248125614
+Epoch 10/20 - Train Batch 50/120
+Epoch 10/20 - Train Batch 100/120
+Epoch 10/20 - Val Batch 40/40
+Epoch 10/20, Train Loss: 0.15197280530507365, Val Loss: 0.2309275502804667
+Epoch 11/20 - Train Batch 50/120
+Epoch 11/20 - Train Batch 100/120
+Epoch 11/20 - Val Batch 40/40
+Epoch 11/20, Train Loss: 0.14542429133628806, Val Loss: 0.3249864213168621
+Epoch 12/20 - Train Batch 50/120
+Epoch 12/20 - Train Batch 100/120
+Epoch 12/20 - Val Batch 40/40
+Epoch 12/20, Train Loss: 0.14902698879983897, Val Loss: 0.3510437554679811
+Epoch 13/20 - Train Batch 50/120
+Epoch 13/20 - Train Batch 100/120
+Epoch 13/20 - Val Batch 40/40
+Epoch 13/20, Train Loss: 0.1458448906429112, Val Loss: 0.2831916693598032
+Epoch 14/20 - Train Batch 50/120
+Epoch 14/20 - Train Batch 100/120
+Epoch 14/20 - Val Batch 40/40
+Epoch 14/20, Train Loss: 0.14362380510816972, Val Loss: 0.3346273651346564
+Epoch 15/20 - Train Batch 50/120
+Epoch 15/20 - Train Batch 100/120
+Epoch 15/20 - Val Batch 40/40
+Epoch 15/20, Train Loss: 0.14506067373634626, Val Loss: 0.36242262590676544
+Epoch 16/20 - Train Batch 50/120
+Epoch 16/20 - Train Batch 100/120
+Epoch 16/20 - Val Batch 40/40
+Epoch 16/20, Train Loss: 0.14714514110431384, Val Loss: 0.39592436971142886
+Epoch 17/20 - Train Batch 50/120
+Epoch 17/20 - Train Batch 100/120
+Epoch 17/20 - Val Batch 40/40
+Epoch 17/20, Train Loss: 0.15022374622834225, Val Loss: 2.1124088257551192
+Epoch 18/20 - Train Batch 50/120
+Epoch 18/20 - Train Batch 100/120
+Epoch 18/20 - Val Batch 40/40
+Epoch 18/20, Train Loss: 0.2597303817824771, Val Loss: 0.27869657091796396
+Epoch 19/20 - Train Batch 50/120
+Epoch 19/20 - Train Batch 100/120
+Epoch 19/20 - Val Batch 40/40
+Epoch 19/20, Train Loss: 0.17008715560659765, Val Loss: 0.4122357482090592
+Epoch 20/20 - Train Batch 50/120
+Epoch 20/20 - Train Batch 100/120
+Epoch 20/20 - Val Batch 40/40
+Epoch 20/20, Train Loss: 0.16633625170215965, Val Loss: 0.30075157824903725
+Training completed.
+Test Accuracy with A=0, B=0, C=0, D=0: 86.71875%
+Loss data for A0_B0_C0_D0 saved to 'loss_data_A0_B0_C0_D0_20_epochs.csv'
+Model for A=0, B=0, C=0, D=0 saved to 'saved_models/model_A0_B0_C0_D0_20_epochs.pth'
+
+=========================
+
+Testing with A=4, B=70, C=2, D=3
+Using existing augmented data in augmented_images_A4_B70_C2_D3
+Total number of images (original + augmented): 27584
+Loading augmented images...
+Size of combined train dataset (after augmentation): 16949
+Creating data loaders...
+Loading pre-trained ResNet18 model...
+Starting training with A=4, B=70, C=2, D=3...
+Epoch 1/20 - Train Batch 50/530
+Epoch 1/20 - Train Batch 100/530
+Epoch 1/20 - Train Batch 150/530
+Epoch 1/20 - Train Batch 200/530
+Epoch 1/20 - Train Batch 250/530
+Epoch 1/20 - Train Batch 300/530
+Epoch 1/20 - Train Batch 350/530
+Epoch 1/20 - Train Batch 400/530
+Epoch 1/20 - Train Batch 450/530
+Epoch 1/20 - Train Batch 500/530
+Epoch 1/20 - Val Batch 40/40
+Epoch 1/20, Train Loss: 0.3053258923356825, Val Loss: 0.21623113742098213
+Epoch 2/20 - Train Batch 50/530
+Epoch 2/20 - Train Batch 100/530
+Epoch 2/20 - Train Batch 150/530
+Epoch 2/20 - Train Batch 200/530
+Epoch 2/20 - Train Batch 250/530
+Epoch 2/20 - Train Batch 300/530
+Epoch 2/20 - Train Batch 350/530
+Epoch 2/20 - Train Batch 400/530
+Epoch 2/20 - Train Batch 450/530
+Epoch 2/20 - Train Batch 500/530
+Epoch 2/20 - Val Batch 40/40
+Epoch 2/20, Train Loss: 0.2077927745386677, Val Loss: 0.20928355073556304
+Epoch 3/20 - Train Batch 50/530
+Epoch 3/20 - Train Batch 100/530
+Epoch 3/20 - Train Batch 150/530
+Epoch 3/20 - Train Batch 200/530
+Epoch 3/20 - Train Batch 250/530
+Epoch 3/20 - Train Batch 300/530
+Epoch 3/20 - Train Batch 350/530
+Epoch 3/20 - Train Batch 400/530
+Epoch 3/20 - Train Batch 450/530
+Epoch 3/20 - Train Batch 500/530
+Epoch 3/20 - Val Batch 40/40
+Epoch 3/20, Train Loss: 0.18133433956020284, Val Loss: 0.22117024189792572
+Epoch 4/20 - Train Batch 50/530
+Epoch 4/20 - Train Batch 100/530
+Epoch 4/20 - Train Batch 150/530
+Epoch 4/20 - Train Batch 200/530
+Epoch 4/20 - Train Batch 250/530
+Epoch 4/20 - Train Batch 300/530
+Epoch 4/20 - Train Batch 350/530
+Epoch 4/20 - Train Batch 400/530
+Epoch 4/20 - Train Batch 450/530
+Epoch 4/20 - Train Batch 500/530
+Epoch 4/20 - Val Batch 40/40
+Epoch 4/20, Train Loss: 0.17844479180661574, Val Loss: 0.24819996068254113
+Epoch 5/20 - Train Batch 50/530
+Epoch 5/20 - Train Batch 100/530
+Epoch 5/20 - Train Batch 150/530
+Epoch 5/20 - Train Batch 200/530
+Epoch 5/20 - Train Batch 250/530
+Epoch 5/20 - Train Batch 300/530
+Epoch 5/20 - Train Batch 350/530
+Epoch 5/20 - Train Batch 400/530
+Epoch 5/20 - Train Batch 450/530
+Epoch 5/20 - Train Batch 500/530
+Epoch 5/20 - Val Batch 40/40
+Epoch 5/20, Train Loss: 0.14710095870695164, Val Loss: 0.24343557162210344
+Epoch 6/20 - Train Batch 50/530
+Epoch 6/20 - Train Batch 100/530
+Epoch 6/20 - Train Batch 150/530
+Epoch 6/20 - Train Batch 200/530
+Epoch 6/20 - Train Batch 250/530
+Epoch 6/20 - Train Batch 300/530
+Epoch 6/20 - Train Batch 350/530
+Epoch 6/20 - Train Batch 400/530
+Epoch 6/20 - Train Batch 450/530
+Epoch 6/20 - Train Batch 500/530
+Epoch 6/20 - Val Batch 40/40
+Epoch 6/20, Train Loss: 0.12797138707202702, Val Loss: 0.23887646161019802
+Epoch 7/20 - Train Batch 50/530
+Epoch 7/20 - Train Batch 100/530
+Epoch 7/20 - Train Batch 150/530
+Epoch 7/20 - Train Batch 200/530
+Epoch 7/20 - Train Batch 250/530
+Epoch 7/20 - Train Batch 300/530
+Epoch 7/20 - Train Batch 350/530
+Epoch 7/20 - Train Batch 400/530
+Epoch 7/20 - Train Batch 450/530
+Epoch 7/20 - Train Batch 500/530
+Epoch 7/20 - Val Batch 40/40
+Epoch 7/20, Train Loss: 0.12759586270055118, Val Loss: 0.34932274781167505
+Epoch 8/20 - Train Batch 50/530
+Epoch 8/20 - Train Batch 100/530
+Epoch 8/20 - Train Batch 150/530
+Epoch 8/20 - Train Batch 200/530
+Epoch 8/20 - Train Batch 250/530
+Epoch 8/20 - Train Batch 300/530
+Epoch 8/20 - Train Batch 350/530
+Epoch 8/20 - Train Batch 400/530
+Epoch 8/20 - Train Batch 450/530
+Epoch 8/20 - Train Batch 500/530
+Epoch 8/20 - Val Batch 40/40
+Epoch 8/20, Train Loss: 0.10223394804282711, Val Loss: 0.30683275163173673
+Epoch 9/20 - Train Batch 50/530
+Epoch 9/20 - Train Batch 100/530
+Epoch 9/20 - Train Batch 150/530
+Epoch 9/20 - Train Batch 200/530
+Epoch 9/20 - Train Batch 250/530
+Epoch 9/20 - Train Batch 300/530
+Epoch 9/20 - Train Batch 350/530
+Epoch 9/20 - Train Batch 400/530
+Epoch 9/20 - Train Batch 450/530
+Epoch 9/20 - Train Batch 500/530
+Epoch 9/20 - Val Batch 40/40
+Epoch 9/20, Train Loss: 0.10018707699414764, Val Loss: 0.3063686277717352
+Epoch 10/20 - Train Batch 50/530
+Epoch 10/20 - Train Batch 100/530
+Epoch 10/20 - Train Batch 150/530
+Epoch 10/20 - Train Batch 200/530
+Epoch 10/20 - Train Batch 250/530
+Epoch 10/20 - Train Batch 300/530
+Epoch 10/20 - Train Batch 350/530
+Epoch 10/20 - Train Batch 400/530
+Epoch 10/20 - Train Batch 450/530
+Epoch 10/20 - Train Batch 500/530
+Epoch 10/20 - Val Batch 40/40
+Epoch 10/20, Train Loss: 0.07975535633916668, Val Loss: 0.35150851383805276
+Epoch 11/20 - Train Batch 50/530
+Epoch 11/20 - Train Batch 100/530
+Epoch 11/20 - Train Batch 150/530
+Epoch 11/20 - Train Batch 200/530
+Epoch 11/20 - Train Batch 250/530
+Epoch 11/20 - Train Batch 300/530
+Epoch 11/20 - Train Batch 350/530
+Epoch 11/20 - Train Batch 400/530
+Epoch 11/20 - Train Batch 450/530
+Epoch 11/20 - Train Batch 500/530
+Epoch 11/20 - Val Batch 40/40
+Epoch 11/20, Train Loss: 0.08341365904936607, Val Loss: 0.2870809416286647
+Epoch 12/20 - Train Batch 50/530
+Epoch 12/20 - Train Batch 100/530
+Epoch 12/20 - Train Batch 150/530
+Epoch 12/20 - Train Batch 200/530
+Epoch 12/20 - Train Batch 250/530
+Epoch 12/20 - Train Batch 300/530
+Epoch 12/20 - Train Batch 350/530
+Epoch 12/20 - Train Batch 400/530
+Epoch 12/20 - Train Batch 450/530
+Epoch 12/20 - Train Batch 500/530
+Epoch 12/20 - Val Batch 40/40
+Epoch 12/20, Train Loss: 0.08203570105043187, Val Loss: 0.3031980711966753
+Epoch 13/20 - Train Batch 50/530
+Epoch 13/20 - Train Batch 100/530
+Epoch 13/20 - Train Batch 150/530
+Epoch 13/20 - Train Batch 200/530
+Epoch 13/20 - Train Batch 250/530
+Epoch 13/20 - Train Batch 300/530
+Epoch 13/20 - Train Batch 350/530
+Epoch 13/20 - Train Batch 400/530
+Epoch 13/20 - Train Batch 450/530
+Epoch 13/20 - Train Batch 500/530
+Epoch 13/20 - Val Batch 40/40
+Epoch 13/20, Train Loss: 0.06967914314871382, Val Loss: 0.42688964046537875
+Epoch 14/20 - Train Batch 50/530
+Epoch 14/20 - Train Batch 100/530
+Epoch 14/20 - Train Batch 150/530
+Epoch 14/20 - Train Batch 200/530
+Epoch 14/20 - Train Batch 250/530
+Epoch 14/20 - Train Batch 300/530
+Epoch 14/20 - Train Batch 350/530
+Epoch 14/20 - Train Batch 400/530
+Epoch 14/20 - Train Batch 450/530
+Epoch 14/20 - Train Batch 500/530
+Epoch 14/20 - Val Batch 40/40
+Epoch 14/20, Train Loss: 0.06688180671667654, Val Loss: 0.36895712856203317
+Epoch 15/20 - Train Batch 50/530
+Epoch 15/20 - Train Batch 100/530
+Epoch 15/20 - Train Batch 150/530
+Epoch 15/20 - Train Batch 200/530
+Epoch 15/20 - Train Batch 250/530
+Epoch 15/20 - Train Batch 300/530
+Epoch 15/20 - Train Batch 350/530
+Epoch 15/20 - Train Batch 400/530
+Epoch 15/20 - Train Batch 450/530
+Epoch 15/20 - Train Batch 500/530
+Epoch 15/20 - Val Batch 40/40
+Epoch 15/20, Train Loss: 0.06967295794176676, Val Loss: 0.2609872347675264
+Epoch 16/20 - Train Batch 50/530
+Epoch 16/20 - Train Batch 100/530
+Epoch 16/20 - Train Batch 150/530
+Epoch 16/20 - Train Batch 200/530
+Epoch 16/20 - Train Batch 250/530
+Epoch 16/20 - Train Batch 300/530
+Epoch 16/20 - Train Batch 350/530
+Epoch 16/20 - Train Batch 400/530
+Epoch 16/20 - Train Batch 450/530
+Epoch 16/20 - Train Batch 500/530
+Epoch 16/20 - Val Batch 40/40
+Epoch 16/20, Train Loss: 0.0500142442168479, Val Loss: 0.3163488918915391
+Epoch 17/20 - Train Batch 50/530
+Epoch 17/20 - Train Batch 100/530
+Epoch 17/20 - Train Batch 150/530
+Epoch 17/20 - Train Batch 200/530
+Epoch 17/20 - Train Batch 250/530
+Epoch 17/20 - Train Batch 300/530
+Epoch 17/20 - Train Batch 350/530
+Epoch 17/20 - Train Batch 400/530
+Epoch 17/20 - Train Batch 450/530
+Epoch 17/20 - Train Batch 500/530
+Epoch 17/20 - Val Batch 40/40
+Epoch 17/20, Train Loss: 0.06887420978721666, Val Loss: 0.4215391524136066
+Epoch 18/20 - Train Batch 50/530
+Epoch 18/20 - Train Batch 100/530
+Epoch 18/20 - Train Batch 150/530
+Epoch 18/20 - Train Batch 200/530
+Epoch 18/20 - Train Batch 250/530
+Epoch 18/20 - Train Batch 300/530
+Epoch 18/20 - Train Batch 350/530
+Epoch 18/20 - Train Batch 400/530
+Epoch 18/20 - Train Batch 450/530
+Epoch 18/20 - Train Batch 500/530
+Epoch 18/20 - Val Batch 40/40
+Epoch 18/20, Train Loss: 0.05934421064586855, Val Loss: 0.39786303620785474
+Epoch 19/20 - Train Batch 50/530
+Epoch 19/20 - Train Batch 100/530
+Epoch 19/20 - Train Batch 150/530
+Epoch 19/20 - Train Batch 200/530
+Epoch 19/20 - Train Batch 250/530
+Epoch 19/20 - Train Batch 300/530
+Epoch 19/20 - Train Batch 350/530
+Epoch 19/20 - Train Batch 400/530
+Epoch 19/20 - Train Batch 450/530
+Epoch 19/20 - Train Batch 500/530
+Epoch 19/20 - Val Batch 40/40
+Epoch 19/20, Train Loss: 0.06497659009298143, Val Loss: 0.4346073171123862
+Epoch 20/20 - Train Batch 50/530
+Epoch 20/20 - Train Batch 100/530
+Epoch 20/20 - Train Batch 150/530
+Epoch 20/20 - Train Batch 200/530
+Epoch 20/20 - Train Batch 250/530
+Epoch 20/20 - Train Batch 300/530
+Epoch 20/20 - Train Batch 350/530
+Epoch 20/20 - Train Batch 400/530
+Epoch 20/20 - Train Batch 450/530
+Epoch 20/20 - Train Batch 500/530
+Epoch 20/20 - Val Batch 40/40
+Epoch 20/20, Train Loss: 0.04919369811783018, Val Loss: 0.38299257792532443
+Training completed.
+Test Accuracy with A=4, B=70, C=2, D=3: 83.984375%
+Loss data for A4_B70_C2_D3 saved to 'loss_data_A4_B70_C2_D3_20_epochs.csv'
+Model for A=4, B=70, C=2, D=3 saved to 'saved_models/model_A4_B70_C2_D3_20_epochs.pth'
+Loss data for all the models saved to 'loss_data_all_20_epochs.csv'
+Best Accuracy: 86.71875%
+Best Parameters: {'A': 0, 'B': 0, 'C': 0, 'D': 0}
