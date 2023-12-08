@@ -6,6 +6,7 @@ dependencies:
   - numpy
   - pip
   - pip:
+    - nibabel
   - pytorch
   - torchvision
   - matplotlib
@@ -16,4 +17,6 @@ dependencies:
   - ipykernel
   - scikit-learn
   - pandas
+  - tensorflow
+  - keras
 
