@@ -1,0 +1,369 @@
+Start.
+Preparing the dataset...
+Populating 'resized_images' with resized images.
+Size of original train dataset: 3840
+Size of original validation dataset: 1280
+Size of original test dataset: 1280
+
+=========================
+
+Testing with A=0, B=0, C=0, D=0
+Starting data augmentation...
+Total number of images (original + augmented): 6400
+Loading augmented images...
+Size of combined train dataset (after augmentation): 3840
+Creating data loaders...
+Loading pre-trained ResNet18 model...
+Starting training with A=0, B=0, C=0, D=0...
+Epoch 1/5 - Train Batch 50/120
+Epoch 1/5 - Train Batch 100/120
+Epoch 1/5, Train Loss: 0.38756102994084357, Val Loss: 0.18992272736504673
+Epoch 2/5 - Train Batch 50/120
+Epoch 2/5 - Train Batch 100/120
+Epoch 2/5, Train Loss: 0.19778389853114883, Val Loss: 0.2093883161433041
+Epoch 3/5 - Train Batch 50/120
+Epoch 3/5 - Train Batch 100/120
+Epoch 3/5, Train Loss: 0.18066278745924744, Val Loss: 0.24486754043027759
+Epoch 4/5 - Train Batch 50/120
+Epoch 4/5 - Train Batch 100/120
+Epoch 4/5, Train Loss: 0.1708836993513008, Val Loss: 0.24274839190766215
+Epoch 5/5 - Train Batch 50/120
+Epoch 5/5 - Train Batch 100/120
+Epoch 5/5, Train Loss: 0.169017686167111, Val Loss: 0.2675220737699419
+Training completed.
+Test Accuracy with A=0, B=0, C=0, D=0: 87.34375%
+Loss data for A0_B0_C0_D0 saved to 'loss_data_A0_B0_C0_D0.csv'
+Model for A=0, B=0, C=0, D=0 saved to 'saved_models/model_A0_B0_C0_D0.pth'
+
+=========================
+
+Testing with A=4, B=70, C=2, D=3
+Starting data augmentation...
+Total number of images (original + augmented): 27584
+Loading augmented images...
+Size of combined train dataset (after augmentation): 16949
+Creating data loaders...
+Loading pre-trained ResNet18 model...
+Starting training with A=4, B=70, C=2, D=3...
+Epoch 1/5 - Train Batch 50/530
+Epoch 1/5 - Train Batch 100/530
+Epoch 1/5 - Train Batch 150/530
+Epoch 1/5 - Train Batch 200/530
+Epoch 1/5 - Train Batch 250/530
+Epoch 1/5 - Train Batch 300/530
+Epoch 1/5 - Train Batch 350/530
+Epoch 1/5 - Train Batch 400/530
+Epoch 1/5 - Train Batch 450/530
+Epoch 1/5 - Train Batch 500/530
+Epoch 1/5, Train Loss: 0.3060352327126377, Val Loss: 0.24613431077450515
+Epoch 2/5 - Train Batch 50/530
+Epoch 2/5 - Train Batch 100/530
+Epoch 2/5 - Train Batch 150/530
+Epoch 2/5 - Train Batch 200/530
+Epoch 2/5 - Train Batch 250/530
+Epoch 2/5 - Train Batch 300/530
+Epoch 2/5 - Train Batch 350/530
+Epoch 2/5 - Train Batch 400/530
+Epoch 2/5 - Train Batch 450/530
+Epoch 2/5 - Train Batch 500/530
+Epoch 2/5, Train Loss: 0.2042170678423542, Val Loss: 0.24651002706959843
+Epoch 3/5 - Train Batch 50/530
+Epoch 3/5 - Train Batch 100/530
+Epoch 3/5 - Train Batch 150/530
+Epoch 3/5 - Train Batch 200/530
+Epoch 3/5 - Train Batch 250/530
+Epoch 3/5 - Train Batch 300/530
+Epoch 3/5 - Train Batch 350/530
+Epoch 3/5 - Train Batch 400/530
+Epoch 3/5 - Train Batch 450/530
+Epoch 3/5 - Train Batch 500/530
+Epoch 3/5, Train Loss: 0.1775442984394448, Val Loss: 0.25284667387604715
+Epoch 4/5 - Train Batch 50/530
+Epoch 4/5 - Train Batch 100/530
+Epoch 4/5 - Train Batch 150/530
+Epoch 4/5 - Train Batch 200/530
+Epoch 4/5 - Train Batch 250/530
+Epoch 4/5 - Train Batch 300/530
+Epoch 4/5 - Train Batch 350/530
+Epoch 4/5 - Train Batch 400/530
+Epoch 4/5 - Train Batch 450/530
+Epoch 4/5 - Train Batch 500/530
+Epoch 4/5, Train Loss: 0.16385173398368763, Val Loss: 0.26721970532089473
+Epoch 5/5 - Train Batch 50/530
+Epoch 5/5 - Train Batch 100/530
+Epoch 5/5 - Train Batch 150/530
+Epoch 5/5 - Train Batch 200/530
+Epoch 5/5 - Train Batch 250/530
+Epoch 5/5 - Train Batch 300/530
+Epoch 5/5 - Train Batch 350/530
+Epoch 5/5 - Train Batch 400/530
+Epoch 5/5 - Train Batch 450/530
+Epoch 5/5 - Train Batch 500/530
+Epoch 5/5, Train Loss: 0.15564033159248108, Val Loss: 0.23777266489341856
+Training completed.
+Test Accuracy with A=4, B=70, C=2, D=3: 87.421875%
+Loss data for A4_B70_C2_D3 saved to 'loss_data_A4_B70_C2_D3.csv'
+Model for A=4, B=70, C=2, D=3 saved to 'saved_models/model_A4_B70_C2_D3.pth'
+
+=========================
+
+Testing with A=5, B=60, C=1, D=2
+Starting data augmentation...
+Total number of images (original + augmented): 22400
+Loading augmented images...
+Size of combined train dataset (after augmentation): 13702
+Creating data loaders...
+Loading pre-trained ResNet18 model...
+Starting training with A=5, B=60, C=1, D=2...
+Epoch 1/5 - Train Batch 50/429
+Epoch 1/5 - Train Batch 100/429
+Epoch 1/5 - Train Batch 150/429
+Epoch 1/5 - Train Batch 200/429
+Epoch 1/5 - Train Batch 250/429
+Epoch 1/5 - Train Batch 300/429
+Epoch 1/5 - Train Batch 350/429
+Epoch 1/5 - Train Batch 400/429
+Epoch 1/5, Train Loss: 0.3142198411734788, Val Loss: 0.2310411143116653
+Epoch 2/5 - Train Batch 50/429
+Epoch 2/5 - Train Batch 100/429
+Epoch 2/5 - Train Batch 150/429
+Epoch 2/5 - Train Batch 200/429
+Epoch 2/5 - Train Batch 250/429
+Epoch 2/5 - Train Batch 300/429
+Epoch 2/5 - Train Batch 350/429
+Epoch 2/5 - Train Batch 400/429
+Epoch 2/5, Train Loss: 0.19638564135870595, Val Loss: 1.0669676460325719
+Epoch 3/5 - Train Batch 50/429
+Epoch 3/5 - Train Batch 100/429
+Epoch 3/5 - Train Batch 150/429
+Epoch 3/5 - Train Batch 200/429
+Epoch 3/5 - Train Batch 250/429
+Epoch 3/5 - Train Batch 300/429
+Epoch 3/5 - Train Batch 350/429
+Epoch 3/5 - Train Batch 400/429
+Epoch 3/5, Train Loss: 0.1822801749334088, Val Loss: 0.2701334683224559
+Epoch 4/5 - Train Batch 50/429
+Epoch 4/5 - Train Batch 100/429
+Epoch 4/5 - Train Batch 150/429
+Epoch 4/5 - Train Batch 200/429
+Epoch 4/5 - Train Batch 250/429
+Epoch 4/5 - Train Batch 300/429
+Epoch 4/5 - Train Batch 350/429
+Epoch 4/5 - Train Batch 400/429
+Epoch 4/5, Train Loss: 0.16453900938910065, Val Loss: 0.2558043195866048
+Epoch 5/5 - Train Batch 50/429
+Epoch 5/5 - Train Batch 100/429
+Epoch 5/5 - Train Batch 150/429
+Epoch 5/5 - Train Batch 200/429
+Epoch 5/5 - Train Batch 250/429
+Epoch 5/5 - Train Batch 300/429
+Epoch 5/5 - Train Batch 350/429
+Epoch 5/5 - Train Batch 400/429
+Epoch 5/5, Train Loss: 0.14817750969975493, Val Loss: 0.3515171015635133
+Training completed.
+Test Accuracy with A=5, B=60, C=1, D=2: 84.0625%
+Loss data for A5_B60_C1_D2 saved to 'loss_data_A5_B60_C1_D2.csv'
+Model for A=5, B=60, C=1, D=2 saved to 'saved_models/model_A5_B60_C1_D2.pth'
+
+=========================
+
+Testing with A=6, B=80, C=1, D=3
+Starting data augmentation...
+Total number of images (original + augmented): 26816
+Loading augmented images...
+Size of combined train dataset (after augmentation): 16472
+Creating data loaders...
+Loading pre-trained ResNet18 model...
+Starting training with A=6, B=80, C=1, D=3...
+Epoch 1/5 - Train Batch 50/515
+Epoch 1/5 - Train Batch 100/515
+Epoch 1/5 - Train Batch 150/515
+Epoch 1/5 - Train Batch 200/515
+Epoch 1/5 - Train Batch 250/515
+Epoch 1/5 - Train Batch 300/515
+Epoch 1/5 - Train Batch 350/515
+Epoch 1/5 - Train Batch 400/515
+Epoch 1/5 - Train Batch 450/515
+Epoch 1/5 - Train Batch 500/515
+Epoch 1/5, Train Loss: 0.29846186723234586, Val Loss: 0.222897635307163
+Epoch 2/5 - Train Batch 50/515
+Epoch 2/5 - Train Batch 100/515
+Epoch 2/5 - Train Batch 150/515
+Epoch 2/5 - Train Batch 200/515
+Epoch 2/5 - Train Batch 250/515
+Epoch 2/5 - Train Batch 300/515
+Epoch 2/5 - Train Batch 350/515
+Epoch 2/5 - Train Batch 400/515
+Epoch 2/5 - Train Batch 450/515
+Epoch 2/5 - Train Batch 500/515
+Epoch 2/5, Train Loss: 0.19596673859265243, Val Loss: 0.36489775814116
+Epoch 3/5 - Train Batch 50/515
+Epoch 3/5 - Train Batch 100/515
+Epoch 3/5 - Train Batch 150/515
+Epoch 3/5 - Train Batch 200/515
+Epoch 3/5 - Train Batch 250/515
+Epoch 3/5 - Train Batch 300/515
+Epoch 3/5 - Train Batch 350/515
+Epoch 3/5 - Train Batch 400/515
+Epoch 3/5 - Train Batch 450/515
+Epoch 3/5 - Train Batch 500/515
+Epoch 3/5, Train Loss: 0.1692297564005678, Val Loss: 0.2519413542933762
+Epoch 4/5 - Train Batch 50/515
+Epoch 4/5 - Train Batch 100/515
+Epoch 4/5 - Train Batch 150/515
+Epoch 4/5 - Train Batch 200/515
+Epoch 4/5 - Train Batch 250/515
+Epoch 4/5 - Train Batch 300/515
+Epoch 4/5 - Train Batch 350/515
+Epoch 4/5 - Train Batch 400/515
+Epoch 4/5 - Train Batch 450/515
+Epoch 4/5 - Train Batch 500/515
+Epoch 4/5, Train Loss: 0.15912505638903207, Val Loss: 0.3131717018783092
+Epoch 5/5 - Train Batch 50/515
+Epoch 5/5 - Train Batch 100/515
+Epoch 5/5 - Train Batch 150/515
+Epoch 5/5 - Train Batch 200/515
+Epoch 5/5 - Train Batch 250/515
+Epoch 5/5 - Train Batch 300/515
+Epoch 5/5 - Train Batch 350/515
+Epoch 5/5 - Train Batch 400/515
+Epoch 5/5 - Train Batch 450/515
+Epoch 5/5 - Train Batch 500/515
+Epoch 5/5, Train Loss: 0.14246172373481455, Val Loss: 0.24092729659751058
+Training completed.
+Test Accuracy with A=6, B=80, C=1, D=3: 87.109375%
+Loss data for A6_B80_C1_D3 saved to 'loss_data_A6_B80_C1_D3.csv'
+Model for A=6, B=80, C=1, D=3 saved to 'saved_models/model_A6_B80_C1_D3.pth'
+
+=========================
+
+Testing with A=3, B=75, C=2, D=3
+Starting data augmentation...
+Total number of images (original + augmented): 27008
+Loading augmented images...
+Size of combined train dataset (after augmentation): 16675
+Creating data loaders...
+Loading pre-trained ResNet18 model...
+Starting training with A=3, B=75, C=2, D=3...
+Epoch 1/5 - Train Batch 50/522
+Epoch 1/5 - Train Batch 100/522
+Epoch 1/5 - Train Batch 150/522
+Epoch 1/5 - Train Batch 200/522
+Epoch 1/5 - Train Batch 250/522
+Epoch 1/5 - Train Batch 300/522
+Epoch 1/5 - Train Batch 350/522
+Epoch 1/5 - Train Batch 400/522
+Epoch 1/5 - Train Batch 450/522
+Epoch 1/5 - Train Batch 500/522
+Epoch 1/5, Train Loss: 0.30526524310810244, Val Loss: 0.2645762332715094
+Epoch 2/5 - Train Batch 50/522
+Epoch 2/5 - Train Batch 100/522
+Epoch 2/5 - Train Batch 150/522
+Epoch 2/5 - Train Batch 200/522
+Epoch 2/5 - Train Batch 250/522
+Epoch 2/5 - Train Batch 300/522
+Epoch 2/5 - Train Batch 350/522
+Epoch 2/5 - Train Batch 400/522
+Epoch 2/5 - Train Batch 450/522
+Epoch 2/5 - Train Batch 500/522
+Epoch 2/5, Train Loss: 0.20335345587762738, Val Loss: 0.20433252304792404
+Epoch 3/5 - Train Batch 50/522
+Epoch 3/5 - Train Batch 100/522
+Epoch 3/5 - Train Batch 150/522
+Epoch 3/5 - Train Batch 200/522
+Epoch 3/5 - Train Batch 250/522
+Epoch 3/5 - Train Batch 300/522
+Epoch 3/5 - Train Batch 350/522
+Epoch 3/5 - Train Batch 400/522
+Epoch 3/5 - Train Batch 450/522
+Epoch 3/5 - Train Batch 500/522
+Epoch 3/5, Train Loss: 0.16741205679080573, Val Loss: 0.29829485369846226
+Epoch 4/5 - Train Batch 50/522
+Epoch 4/5 - Train Batch 100/522
+Epoch 4/5 - Train Batch 150/522
+Epoch 4/5 - Train Batch 200/522
+Epoch 4/5 - Train Batch 250/522
+Epoch 4/5 - Train Batch 300/522
+Epoch 4/5 - Train Batch 350/522
+Epoch 4/5 - Train Batch 400/522
+Epoch 4/5 - Train Batch 450/522
+Epoch 4/5 - Train Batch 500/522
+Epoch 4/5, Train Loss: 0.16476361589574065, Val Loss: 0.24578112084418535
+Epoch 5/5 - Train Batch 50/522
+Epoch 5/5 - Train Batch 100/522
+Epoch 5/5 - Train Batch 150/522
+Epoch 5/5 - Train Batch 200/522
+Epoch 5/5 - Train Batch 250/522
+Epoch 5/5 - Train Batch 300/522
+Epoch 5/5 - Train Batch 350/522
+Epoch 5/5 - Train Batch 400/522
+Epoch 5/5 - Train Batch 450/522
+Epoch 5/5 - Train Batch 500/522
+Epoch 5/5, Train Loss: 0.14486716374985953, Val Loss: 0.3001810892485082
+Training completed.
+Test Accuracy with A=3, B=75, C=2, D=3: 86.71875%
+Loss data for A3_B75_C2_D3 saved to 'loss_data_A3_B75_C2_D3.csv'
+Model for A=3, B=75, C=2, D=3 saved to 'saved_models/model_A3_B75_C2_D3.pth'
+
+=========================
+
+Testing with A=7, B=50, C=1, D=1
+Starting data augmentation...
+Total number of images (original + augmented): 21312
+Loading augmented images...
+Size of combined train dataset (after augmentation): 12879
+Creating data loaders...
+Loading pre-trained ResNet18 model...
+Starting training with A=7, B=50, C=1, D=1...
+Epoch 1/5 - Train Batch 50/403
+Epoch 1/5 - Train Batch 100/403
+Epoch 1/5 - Train Batch 150/403
+Epoch 1/5 - Train Batch 200/403
+Epoch 1/5 - Train Batch 250/403
+Epoch 1/5 - Train Batch 300/403
+Epoch 1/5 - Train Batch 350/403
+Epoch 1/5 - Train Batch 400/403
+Epoch 1/5, Train Loss: 0.3274117016023205, Val Loss: 0.21521692406386136
+Epoch 2/5 - Train Batch 50/403
+Epoch 2/5 - Train Batch 100/403
+Epoch 2/5 - Train Batch 150/403
+Epoch 2/5 - Train Batch 200/403
+Epoch 2/5 - Train Batch 250/403
+Epoch 2/5 - Train Batch 300/403
+Epoch 2/5 - Train Batch 350/403
+Epoch 2/5 - Train Batch 400/403
+Epoch 2/5, Train Loss: 0.19569021205951648, Val Loss: 0.22308740480802952
+Epoch 3/5 - Train Batch 50/403
+Epoch 3/5 - Train Batch 100/403
+Epoch 3/5 - Train Batch 150/403
+Epoch 3/5 - Train Batch 200/403
+Epoch 3/5 - Train Batch 250/403
+Epoch 3/5 - Train Batch 300/403
+Epoch 3/5 - Train Batch 350/403
+Epoch 3/5 - Train Batch 400/403
+Epoch 3/5, Train Loss: 0.17886454792965953, Val Loss: 0.25769140841439364
+Epoch 4/5 - Train Batch 50/403
+Epoch 4/5 - Train Batch 100/403
+Epoch 4/5 - Train Batch 150/403
+Epoch 4/5 - Train Batch 200/403
+Epoch 4/5 - Train Batch 250/403
+Epoch 4/5 - Train Batch 300/403
+Epoch 4/5 - Train Batch 350/403
+Epoch 4/5 - Train Batch 400/403
+Epoch 4/5, Train Loss: 0.15828605164443293, Val Loss: 0.2281034336425364
+Epoch 5/5 - Train Batch 50/403
+Epoch 5/5 - Train Batch 100/403
+Epoch 5/5 - Train Batch 150/403
+Epoch 5/5 - Train Batch 200/403
+Epoch 5/5 - Train Batch 250/403
+Epoch 5/5 - Train Batch 300/403
+Epoch 5/5 - Train Batch 350/403
+Epoch 5/5 - Train Batch 400/403
+Epoch 5/5, Train Loss: 0.13322674634429643, Val Loss: 0.2858677066862583
+Training completed.
+Test Accuracy with A=7, B=50, C=1, D=1: 85.859375%
+Loss data for A7_B50_C1_D1 saved to 'loss_data_A7_B50_C1_D1.csv'
+Model for A=7, B=50, C=1, D=1 saved to 'saved_models/model_A7_B50_C1_D1.pth'
+Loss data for all the models saved to 'loss_data_all.csv'
+Best Accuracy: 87.421875%
+Best Parameters: {'A': 4, 'B': 70, 'C': 2, 'D': 3}
